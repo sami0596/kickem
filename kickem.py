@@ -1,3 +1,10 @@
+print('''
+                     _  ___  ____  ___   __   
+ ___  __ _ _ __ ___ (_)/ _ \| ___|/ _ \ / /_  
+/ __|/ _` | '_ ` _ \| | | | |___ \ (_) | '_ \ 
+\__ \ (_| | | | | | | | |_| |___) \__, | (_) |
+|___/\__,_|_| |_| |_|_|\___/|____/  /_/ \___/ 
+''')
 import time
 import pyautogui
 usernames = []
@@ -39,3 +46,5 @@ for x in usernames:
     pyautogui.typewrite('/kick ' + x)
     pyautogui.press('enter')
     pyautogui.press('enter')
+    
+input("Made by: sami0596")
